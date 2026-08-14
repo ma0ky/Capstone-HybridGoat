@@ -23,6 +23,15 @@ Conclusion :
 
 #### On-premises
 
+C'est ton service/ serveur qui tourne chez toi dans tes locaux, tu passes pas par un fournisseur cloud. L’avantage est que l’entreprise contrôle directement ses machines donc ses données à 100%. Mais ça coûte cher : il faut acheter les serveurs, les maintenir, les refroidir, gérer l’électricité.
+Exemple :
+- Une banque possède une salle remplie de serveurs dans ses propres bâtiments.  
+  Ses applications et ses bases de données fonctionnent sur ces serveurs.
+Conclusion :
+- On-premises = les ressources sont physiquement chez l’entreprise.
+
+#### Hybrid
+
 
 
 
