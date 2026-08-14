@@ -14,7 +14,16 @@ More complicated
 
 #### Cloud 
 
-C'est ton service qui tourne chez quelqu'un d'autre comme AWS, tu loues une machine ( serveurs)chez eux. 
+C'est ton service qui tourne chez quelqu'un d'autre comme AWS, tu loues une machine ( serveurs) qui tournes chez eux, des fournisseurs cloud.
+Exemple :
+- Une entreprise a une application.
+  Au lieu d’acheter 10 serveurs physiques, elle loue des serveurs dans le cloud.
+Conclusion :
+- Cloud = ressources informatiques hébergées chez un fournisseur externe.
+
+#### On-premises
+
+
 
 
 
