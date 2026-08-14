@@ -36,8 +36,9 @@ C'est un mélange de serveurs dans le cloud et dans les locaux.
 Sa permet de prendre le meilleur des 2.
 Exemple:
 - Données sensibles comme des données médicaux ou bancaires dans ses propres locaux pour plus de confidentialité.
-  Et la puissance de Cloud ainsi que des machines mise à disposition pour faire tourner
-
+  Et la puissance de Cloud ainsi que des machines mise à disposition pour faire tourner l'appli à pleine puissances.
+Conclusion :
+- **Hybride** = Un peu chez soi + un peu sur Internet
 
 
 
