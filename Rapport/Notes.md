@@ -14,6 +14,8 @@ More complicated
 
 #### Cloud 
 
+C'est ton service qui tourne chez quelqu'un d'autre comme AWS, tu loues une machine ( serveurs)chez eux. 
+
 
 
 
