@@ -10,7 +10,13 @@ More complicated
 
 ## Concepts
 
-### You only pay for what you use
+### Cloud Computing
+
+#### Cloud 
+
+
+
+
 
 
 
