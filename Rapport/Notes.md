@@ -8,6 +8,23 @@ Client-server model
 
 More complicated
 
+###### Immuabilité
+
+L'**immuabilité** est un paradigme selon lequel une fois qu'une ressource d'infrastructure (comme un serveur ou un conteneur) est déployée, elle ne doit jamais être modifiée directement.  Si une mise à jour ou un correctif est nécessaire, l'ancienne ressource est détruite et une nouvelle instance, incluant les modifications, est provisionnée >
+
+mais si on fait une nouvelle instance comme par exemple un server et qu'on décide de le changer sa veut dire on shutdown le premier server pour le remplacer mais sa va pas paralyser l'infra ? >
+
+Non, cela ne paralyse pas l'infrastructure. C'est précisément pour éviter l'interruption de service que l'immuabilité est couplée à des **stratégies de déploiement spécifiques** et à un **équilibreur de charge**. >
+
+Lors d'une mise à jour, le processus suit ces étapes strictes :
+
+1. **Provisionnement parallèle** : L'outil d'IaC (Terraform, CloudFormation, etc.) lance la nouvelle instance avec la mise à jour, tandis que l'ancienne continue de traiter le trafic. 
+    
+2. **Validation** : Le système attend que la nouvelle instance soit totalement prête et passe ses tests de santé (_health checks_). 
+    
+3. **Bascule du trafic** : Une fois la nouvelle instance jugée saine, l'équilibreur de charge commence à lui envoyer du trafic.  Selon la stratégie choisie, cela peut être immédiat ou progressif.
+    
+4. **Désactivation** : Seulement après que le trafic a été transféré, l'ancienne instance est retirée de l'équilibreur puis détruite.
 ## Concepts
 
 ### Cloud Computing
