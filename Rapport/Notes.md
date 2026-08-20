@@ -38,6 +38,12 @@ Exemple :
 Conclusion :
 - Cloud = ressources informatiques hébergées chez un fournisseur externe.
 
+![](../Img/Pasted%20image%2020260820132845.png)
+
+![](../Img/Pasted%20image%2020260820133000.png)
+
+![](../Img/Pasted%20image%2020260820133059.png)
+
 #### On-premises
 
 C'est ton service/ serveur qui tourne chez toi dans tes locaux, tu passes pas par un fournisseur cloud. L’avantage est que l’entreprise contrôle directement ses machines donc ses données à 100%. Mais ça coûte cher : il faut acheter les serveurs, les maintenir, les refroidir, gérer l’électricité.
