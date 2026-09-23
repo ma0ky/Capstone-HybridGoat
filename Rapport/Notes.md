@@ -66,6 +66,7 @@ Conclusion :
 - **Hybride** = Un peu chez soi + un peu sur Internet
 
 
+### Responsability
 
 
 
