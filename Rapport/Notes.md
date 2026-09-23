@@ -68,6 +68,10 @@ Conclusion :
 
 ### Responsability
 
+![](../Img/Pasted%20image%2020260923215205.png)
+
+### 
+
 
 
 
