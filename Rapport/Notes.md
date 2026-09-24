@@ -159,7 +159,7 @@ Routings methods :
 
 Imaginons qu'un server reçoit plusieurs requêtes mais que le server down pdnt un moment, les requetes ne sont pas forcement perdues si on les met sous une forme de file d'attente
 Amazon Simple Queue Service (Amazon SQS) 
-- 
+- send messages/ store et receive sous une forme de payload (ou toute la reque)
  Amazon Simple Notification Service (Amazon SNS)
 
 tightly coupled and loosely coupled architectures
