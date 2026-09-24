@@ -159,9 +159,9 @@ Routings methods :
 
 Imaginons qu'un server reçoit plusieurs requêtes mais que le server down pdnt un moment, les requetes ne sont pas forcement perdues si on les met sous une forme de file d'attente
 Amazon Simple Queue Service (Amazon SQS) 
-- send messages/ store et receive sous une forme de payload (ou toute la reque)
+- send messages/ store et receive sous une forme de payload (ou toute la requete est contenue dedans dans la file d'attente avant qu'elle soit traitée)
  Amazon Simple Notification Service (Amazon SNS)
-
+- envoit la requetes à tout les services et peut être perdue 
 tightly coupled and loosely coupled architectures
 - tightly coupled c'est quand un composant fail dans l'infra alors tout l'infra est paralyze
 - loosely coupled est quand il y a un système de requêtes en attente
