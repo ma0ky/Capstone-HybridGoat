@@ -173,4 +173,4 @@ Monolithic applications >> une application qui contient plusieurs composant qui 
 Microservices architecture >> une application qui contient plusieurs composants qui tourne sur plusieurs services 
 ![](../Img/Pasted%20image%2020260924221652.png)
 
-Amazon EventBridge >>
+Amazon EventBridge >> bus d'énvènement qui permet de connecter différents applications entre elles 
