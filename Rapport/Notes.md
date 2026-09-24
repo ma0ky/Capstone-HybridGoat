@@ -74,7 +74,7 @@ Conclusion :
 
 Les instances des servers que Amazon propose.
 like les machines virtuels >> on peut choisir ses puissances, et tout prix non fix
-the concept of multi-tenancy. > esource sharing and isolation fait par un hyperviseur 
+the concept of multi-tenancy. > ressource sharing and isolation fait par un hyperviseur 
 
 Pour communiquer avec on le fait via API requests :
 - 
@@ -162,7 +162,7 @@ Amazon Simple Queue Service (Amazon SQS)
 - send messages/ store et receive sous une forme de payload (ou toute la requete est contenue dedans dans la file d'attente avant qu'elle soit traitée)
 - 
  Amazon Simple Notification Service (Amazon SNS)
-- envoit la requetes à tout les services en fonction de ce que tu veux et de l'urgence et peut être perdue 
+- envoit la requetes à tout les services en fonction de ce que tu veux et de l'urgence et peut être perdue r
 tightly coupled and loosely coupled architectures
 - tightly coupled c'est quand un composant fail dans l'infra alors tout l'infra est paralyze
 - loosely coupled est quand il y a un système de requêtes en attente
