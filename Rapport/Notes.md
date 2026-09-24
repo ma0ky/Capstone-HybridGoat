@@ -133,9 +133,36 @@ Customer et AWS responsabilitées
 
  managed and unmanaged services
  
-### Scaling
+### Scaling and Load balancing
 
 -  Scaling up : On peut scaler en ajoutant plus de puissances et ressources à une machine 
 - Scaling out : On peut scaler en ajoutant plus de machines 
 ![[Pasted image 20260924134445.png]]
 
+Elasticity >> on peut automatiquement augmenter les ressources et les baisser en fonction du traffic sur le moment , c'est efficace si tu veux economiser et que le système s'adapte en temps réel  
+![[Pasted image 20260924134739.png]]
+
+#### ELB (Elastic Load Balancing)
+
+pour continuer dans l'optique de l'elasticity pour scaler et eviter que sa soit qu'un server qui recoit malgré la présence des autres servers on met un load balancer entre les users et les servers.
+C'est lui qui va envoyer les requetes sur les différents servers.
+
+Routings methods :
+- round robin >> le traffic se distribue dans le server dans un movement circulaire
+![[Pasted image 20260924143002.png|162]]
+- least connections >> le traffic se distribue à celui qui a le moins de connections 
+![[Pasted image 20260924143026.png|340]]
+- ip hash >> utilise l'adresse ip du client pour essayez de use la même route au même server
+- least Response Time >> redirige le traffic en fonction du temps de reponse le plus rapide.
+
+#### Messaging and Queuing
+
+Imaginons qu'un server reçoit plusieurs requêtes mais que le server down pdnt un moment, les requetes ne sont pas forcement perdues si on les met sous une forme de file d'attente
+Amazon Simple Queue Service (Amazon SQS) 
+- 
+ Amazon Simple Notification Service (Amazon SNS)
+
+tightly coupled and loosely coupled architectures
+- tightly coupled c'est quand un composant fail dans l'infra alors tout l'infra est paralyze
+- loosely coupled est quand il y a un système de requêtes en attente
+![[Pasted image 20260924163958.png]]
