@@ -166,3 +166,4 @@ tightly coupled and loosely coupled architectures
 - tightly coupled c'est quand un composant fail dans l'infra alors tout l'infra est paralyze
 - loosely coupled est quand il y a un système de requêtes en attente
 ![[Pasted image 20260924163958.png]]
+
