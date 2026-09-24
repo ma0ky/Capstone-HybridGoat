@@ -70,10 +70,72 @@ Conclusion :
 
 ![](../Img/Pasted%20image%2020260923215205.png)
 
-### 
+### EC2
+
+Les instances des servers que Amazon propose.
+like les machines virtuels >> on peut choisir ses puissances, et tout prix non fix
+the concept of multi-tenancy. > esource sharing and isolation fait par un hyperviseur 
+
+Pour communiquer avec on le fait via API requests :
+- 
+Launch an instance
+- selectionner une AMI (Amazon Machine Image) > - Region,OS, logiciels , Processor architecture, Virtualization type, root volume type.
+AMI == sont des images vm pre-built comme docker vulgairement
+Avec une seule AMI on peut lancer plusieurs mêmes instances
+Il y a 3 facons de utiliser une AMI :
+- on fait le notre 
+- utiliser une préconfig
+- acheter des Amis sur le worksplace amazon
+Le point fort des AMi est la répétition c'est le fait qu'avec la même configurations on peut ducoup automatiser tout un processus avec les mêmes environnement pout ensuite le scaler
 
 
 
+- Hardware ressources, CPU, memory, network
+Connect
+- ssh ou rdp
+Use
+- on peut commencer à lancer les commandes 
 
+#### Types
 
+Amazon propose plusieurs EC2 : ce qui changent sont :
+- CPU
+- Memory
+- Espace
+- Network capacibilities
+en fonction de ce que je veux faire
+
+Différenctes familles :
+- general purpose
+un peu de tout c bien equilibrer au niveau de tout les fonctionnalités 
+on peut faire des servers webs et du code
+- compute optimized
+des tâches puissantes comme des servers de jeux et même de la modélisation scientifique 
+- mémoire optimized
+memoire ++ > fast data processing
+- acceleration optimized
+calculs, data pattern, maths
+ils utilients hardware accelerators
+- storage optimized
+stocker énormement de données
+
+### How to Provision AWS Resources
+to interact AWS services
+AWS Management Console
+- interface normale ou on peut cliquer et selectionner voir différentes choses == like monitoring === ez peace
+
+AWS Command Line Interface
+- APi calls with ur terminal
+
+AWS SDK
+- interact avec d'autres langages comme python ( appels comme Snowflake)
+Customer et AWS responsabilitées
+
+ managed and unmanaged services
+ 
+### Scaling
+
+-  Scaling up : On peut scaler en ajoutant plus de puissances et ressources à une machine 
+- Scaling out : On peut scaler en ajoutant plus de machines 
+![[Pasted image 20260924134445.png]]
 
