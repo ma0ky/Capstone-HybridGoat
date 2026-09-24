@@ -160,6 +160,7 @@ Routings methods :
 Imaginons qu'un server reçoit plusieurs requêtes mais que le server down pdnt un moment, les requetes ne sont pas forcement perdues si on les met sous une forme de file d'attente
 Amazon Simple Queue Service (Amazon SQS) 
 - send messages/ store et receive sous une forme de payload (ou toute la requete est contenue dedans dans la file d'attente avant qu'elle soit traitée)
+- 
  Amazon Simple Notification Service (Amazon SNS)
 - envoit la requetes à tout les services et peut être perdue 
 tightly coupled and loosely coupled architectures
@@ -173,4 +174,5 @@ Monolithic applications >> une application qui contient plusieurs composant qui 
 Microservices architecture >> une application qui contient plusieurs composants qui tourne sur plusieurs services 
 ![](../Img/Pasted%20image%2020260924221652.png)
 
-Amazon EventBridge >> bus d'énvènement qui permet de connecter différents applications entre elles 
+Amazon EventBridge >> bus d'énvènement qui permet de connecter différents applications entre elles ainsi que des services internes AWS, il se charge de distribuer les informations à toute les applications/services qui ont besoin de savoir
+
