@@ -167,5 +167,9 @@ tightly coupled and loosely coupled architectures
 - loosely coupled est quand il y a un système de requêtes en attente
 ![[Pasted image 20260924163958.png]]
 
-Monolithic applications >> une application qui contient plusieurs composant services 
+Monolithic applications >> une application qui contient plusieurs composant qui tourne sur un service
+![](../Img/Pasted%20image%2020260924221442.png)
+
+Microservices architecture >> une application qui contient plusieurs composants qui tourne sur plusieurs services 
+![](../Img/Pasted%20image%2020260924221652.png)
 
