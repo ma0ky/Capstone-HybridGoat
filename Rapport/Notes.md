@@ -167,3 +167,4 @@ tightly coupled and loosely coupled architectures
 - loosely coupled est quand il y a un système de requêtes en attente
 ![[Pasted image 20260924163958.png]]
 
+
