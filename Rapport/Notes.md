@@ -178,9 +178,10 @@ Amazon EventBridge >> bus d'énvènement qui permet de connecter différents app
 
 ### v
 
- AWS Lambda
+ AWS Lambda est un serveless compute, c'est un puissant service qui permet d'executer du code sans gérer l'infrastructure derrière comme google labs et pas besoin de gérer toute l'infra derrière comme VsCode
+ 
  unmanaged, managed, and serverless compute services in AWS.
 - managed service est quand tu delaisses certaines responsabilitées que t'as à AWS comme l'infrastructure >> ce qui te donne moins de champs  de controles que si c'etait unmanaged service est que tout soit sur ta tête 
-- 
+- serveless compute est quand tu ne peux pas voir les caracteristics du hardware ou des instances spécifiques qui sont sur tes applications 
 
 
