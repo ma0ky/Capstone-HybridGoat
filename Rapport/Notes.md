@@ -207,9 +207,10 @@ Un conteneur est un ensemble de code, config, runtime et dependances
 how containers create a consistent and portable runtime environment across different systems.
 
  Amazon Elastic Container Registry (Amazon ECR)
-
+- 
 Amazon ECS and Amazon EKS orchestrate containers to deploy, scale, and manage applications.
-
+- ECS == 
+- EKS == 
 AWS Fargate runs containers without the need to provision or manage servers
 
 
