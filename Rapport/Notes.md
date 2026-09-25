@@ -180,5 +180,7 @@ Amazon EventBridge >> bus d'énvènement qui permet de connecter différents app
 
  AWS Lambda
  unmanaged, managed, and serverless compute services in AWS.
+- managed service est quand tu delaisses certaines responsabilitées que t'as à AWS comme l'infrastructure >> ce qui te donne moins de champs  de controles que si c'etait unmanaged service est que tout soit sur ta tête 
+- 
 
 
