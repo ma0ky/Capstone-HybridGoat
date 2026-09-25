@@ -206,6 +206,7 @@ Un conteneur est un ensemble de code, config, runtime et dependances
 how containers create a consistent and portable runtime environment across different systems.
 => container start, stop and run à travers un cluster (= groupe)
 - sa scale automatiquement en fonction du traffic
+![410](../Img/Pasted%20image%2020260925185816.png)
  Amazon Elastic Container Registry (Amazon ECR)
 - C'est là où sont stocker les images des containers pour les environnement docker 
 Amazon ECS and Amazon EKS orchestrate containers to deploy, scale, and manage applications.
@@ -214,4 +215,8 @@ Amazon ECS and Amazon EKS orchestrate containers to deploy, scale, and manage ap
 AWS Fargate runs containers without the need to provision or manage servers
 - endroit où on peut run les dockers
 
-Step : Commencer à mettre une image docker/container dans l'ECR >> choisir un service qui permet dd'o
+Step : Commencer à mettre une image docker/container dans l'ECR >> choisir un service qui permet d'orchestrer et d'utiliser des dockers ( ECS ou EKS) > mtn on choisit où il va run EC2 ou AWS Fargate
+
+![398](../Img/Pasted%20image%2020260925185550.png)
+
+![415](../Img/Pasted%20image%2020260925185744.png)
