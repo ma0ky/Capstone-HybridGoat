@@ -194,4 +194,9 @@ Trigger >> fait la liaison entre le code et un evenement que l'utilisateur a pro
 - ex : l'utilisateur envoit un mail , le trigger lance la lambda function qui permet d'envoyer le mail à son destinataire
 - step : configuration de la liasion dans la console aws lambda  > event se prduit > le service envoit un json event avec toute les infos pour activer la function lambda et celle-ci s'execute puis s'artt ( elle ne tourne pas h24 d'ou le trigger)
 
-C bien pour des taches rapides 
+C bien pour des taches rapides ( runtime) limite d'une fonction lambda est max 15min
+
+On peut coder le sien ( event, context information, et reponse entre lambda et la function )
+
+
+
