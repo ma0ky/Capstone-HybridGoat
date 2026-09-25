@@ -210,7 +210,7 @@ how containers create a consistent and portable runtime environment across diffe
  Amazon Elastic Container Registry (Amazon ECR)
 - C'est là où sont stocker les images des containers pour les environnement docker 
 Amazon ECS and Amazon EKS orchestrate containers to deploy, scale, and manage applications.
-- ECS(Elastic Container Service) == simple , definit quelques paramètres and fully managed service is like a docker == scalable container orchestration service for running and managing containers on AWS
+- ECS(Elastic Container Service) == simple , definit quelques paramètres and fully managed service is like a docker == scalable container orchestration service for running and managing containers on AWS( utilise des images docker)
 
 - EKS(Elastic Kubernetes Service) == open-source, plus complex et plus de control donc plus de flexibility like ECS mais on utilise kubernetes avc du langage .yaml 
 
