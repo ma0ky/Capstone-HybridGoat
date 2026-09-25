@@ -190,4 +190,6 @@ Amazon EventBridge >> bus d'énvènement qui permet de connecter différents app
 
 Par exemple on fait une application et il faut ensuite la deployer, voir les ressources, etc mais grace à AWS Lambda pas besoin de ça on fait juste une lambda function ( your code ) > que le trigger va executer cette function ( une function lambda doit être activé par un declencheur == trigger)
 - pour ensuite configurer un trigger pour quoi ? et comment
-Trigger >> fait la liaison entre le code et 
+Trigger >> fait la liaison entre le code et un evenement que l'utilisateur a provoqué :
+- ex : l'utilisateur envoit un mail , le trigger lance la lambda function qui permet d'envoyer le mail à son destinataire
+- step : configuration de la liasion dans la console aws lambda  > event se prduit > le service envoit un json event avec toute les infos pour activer la function lambda et celle-ci s'execute puis s'artt ( elle ne tourne pas h24 d'ou le trigger)
