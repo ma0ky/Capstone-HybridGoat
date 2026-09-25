@@ -176,4 +176,9 @@ Microservices architecture >> une application qui contient plusieurs composants 
 
 Amazon EventBridge >> bus d'énvènement qui permet de connecter différents applications entre elles ainsi que des services internes AWS, il se charge de distribuer les informations à toute les applications/services qui ont besoin de savoir
 
+### v
+
+ AWS Lambd
+ 
+
 
