@@ -202,10 +202,11 @@ On peut coder le sien ( event == infos sur un fichier ou l'mail recu , context i
 ### Containers
 
 Un conteneur est un ensemble de code, config, runtime et dependances
-- 
 
 how containers create a consistent and portable runtime environment across different systems.
-
+=> container start, stop and run à travers un cluster (= groupe)
+- sa scale automatiquement en fonction du traffic
+- 
  Amazon Elastic Container Registry (Amazon ECR)
 - 
 Amazon ECS and Amazon EKS orchestrate containers to deploy, scale, and manage applications.
