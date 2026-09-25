@@ -187,3 +187,4 @@ Amazon EventBridge >> bus d'énvènement qui permet de connecter différents app
 #### AWS LAMBDA
 
  AWS Lambda est un serveless compute, c'est un puissant service qui permet d'executer du code sans gérer l'infrastructure derrière comme google labs et pas besoin de gérer toute l'infra derrière comme VsCode
+
