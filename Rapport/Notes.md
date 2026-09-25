@@ -216,9 +216,12 @@ Amazon ECS and Amazon EKS orchestrate containers to deploy, scale, and manage ap
 
 AWS Fargate runs containers without the need to provision or manage servers
 - endroit où on peut run les dockers
+**Fargate vs EC2 :** Choisir entre EC2 et Fargate détermine la gestion de la couche sous-jacente. Avec EC2, tu gères les serveurs ; avec Fargate, AWS gère les serveurs à ta place (mode _serverless_).
 
 Step : Commencer à mettre une image docker/container dans l'ECR >> choisir un service qui permet d'orchestrer et d'utiliser des dockers ( ECS ou EKS) > mtn on choisit où il va run EC2 ou AWS Fargate
 
 ![398](../Img/Pasted%20image%2020260925185550.png)
+Le conteneur isole l'application et ses dépendances il ne recree pas l'OS comme la VM, il partage le kernel de l'Host
 
 ![415](../Img/Pasted%20image%2020260925185744.png)
+
