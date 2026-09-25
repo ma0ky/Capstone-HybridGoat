@@ -196,7 +196,7 @@ Trigger >> fait la liaison entre le code et un evenement que l'utilisateur a pro
 
 C bien pour des taches rapides ( runtime) limite d'une fonction lambda est max 15min
 
-On peut coder le sien ( event, context information, et reponse entre lambda et la function )
+On peut coder le sien ( event == infos sur un fichier ou l'mail recu , context information== temps restant et id de la requete,... entre lambda et la function )
 
 
 
