@@ -178,7 +178,7 @@ Amazon EventBridge >> bus d'énvènement qui permet de connecter différents app
 
 ### v
 
- AWS Lambd
- 
+ AWS Lambda
+ unmanaged, managed, and serverless compute services in AWS.
 
 
