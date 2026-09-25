@@ -211,6 +211,7 @@ how containers create a consistent and portable runtime environment across diffe
 - C'est là où sont stocker les images des containers pour les environnement docker 
 Amazon ECS and Amazon EKS orchestrate containers to deploy, scale, and manage applications.
 - ECS(Elastic Container Service) == simple , definit quelques paramètres and fully managed service
+
 - EKS(Elastic Kubernetes Service) == open-source, plus complex et plus de control donc plus de flexibility
 AWS Fargate runs containers without the need to provision or manage servers
 - endroit où on peut run les dockers
