@@ -187,7 +187,8 @@ Amazon EventBridge >> bus d'énvènement qui permet de connecter différents app
 #### AWS LAMBDA
 
  AWS Lambda est un serveless compute, c'est un puissant service qui permet d'executer du code sans gérer l'infrastucture dont les servers. 
-
+ serverless services, customers can focus solely on writing and deploying code. AWS fully manages infrastructure, scaling, and availability, so customers do not have to worry about managing servers or capacity.
+ 
 Par exemple on fait une application et il faut ensuite la deployer, voir les ressources, etc mais grace à AWS Lambda pas besoin de ça on fait juste une lambda function ( your code ) > que le trigger va executer cette function ( une function lambda doit être activé par un declencheur == trigger)
 - pour ensuite configurer un trigger pour quoi ? et comment
 Trigger >> fait la liaison entre le code et un evenement que l'utilisateur a provoqué :
