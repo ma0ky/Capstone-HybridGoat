@@ -235,9 +235,10 @@ Tu lui donnes ton code et des fichiers de configuration , et il s'occupe de prov
 
 AWS Batch manages large-scale computing tasks and automatically adjusts resources
 => pour des grosses utilités comme des gros calculs avec des gros processeurs pour.
-Il prend soin de l'infrastructure pour toi
+Il prend soin de l'infrastructure pour toi et te permet de te concentrer sur le dev de ton application ou faire tes analyzes, il scale automatiquement aussi 
 
 Amazon Lightsail streamlines web application setup and management without the need for complex infrastructure.
+=> simple et efficace pas chère et fait la même chose qu'en haut, manage l'infrastructure
 
 AWS Outposts extends AWS services to on-premises environments, supporting hybrid cloud architectures.
-
+=> Pour les entreprises qui ont une architecture hybrid
