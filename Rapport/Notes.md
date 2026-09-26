@@ -230,6 +230,7 @@ Le conteneur isole l'application et ses dépendances il ne recree pas l'OS comme
 #### AWS LAMBDA
 
  Elastic Beanstalk streamlines environment provisioning and management.
+ => service qui va permettre de mieux manager et rendre le deploiement plus facile des applications dans les 
 
 AWS Batch manages large-scale computing tasks and automatically adjusts resources
 
