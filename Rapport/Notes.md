@@ -227,7 +227,7 @@ Le conteneur isole l'application et ses dépendances il ne recree pas l'OS comme
 
 ![438](../Img/Pasted%20image%2020260925215157.png)
 
-#### AWS LAMBDA
+#### additional compute services
 
  Elastic Beanstalk streamlines environment provisioning and management.
  => service qui va permettre de mieux manager et rendre le deploiement plus facile des applications dans les instances EC2.
@@ -236,9 +236,13 @@ Tu lui donnes ton code et des fichiers de configuration , et il s'occupe de prov
 AWS Batch manages large-scale computing tasks and automatically adjusts resources
 => pour des grosses utilités comme des gros calculs avec des gros processeurs pour.
 Il prend soin de l'infrastructure pour toi et te permet de te concentrer sur le dev de ton application ou faire tes analyzes, il scale automatiquement aussi 
+L'élément clé de **Batch** est l'exécution de traitements **par lots** (_batch processing_), c'est-à-dire lancer des centaines ou milliers de tâches asynchrones/en arrière-plan (ex: analyse de données, rendu vidéo, calculs financiers) qui s'exécutent, scalent puis s'arrêtent une fois terminées.
 
 Amazon Lightsail streamlines web application setup and management without the need for complex infrastructure.
 => simple et efficace pas chère et fait la même chose qu'en haut, manage l'infrastructure
+Lightsail est une solution **VPS (Virtual Private Server) clé en main** à prix fixe prévisible (ex: un petit serveur web, un WordPress), conçue pour les débutants, projets personnels ou petites entreprises. Contrairement à Elastic Beanstalk qui gère le scaling automatique complexe sur plusieurs instances EC2, Lightsail vous donne un serveur virtuel préconfiguré très simple avec un tarif mensuel fixe.
+
 
 AWS Outposts extends AWS services to on-premises environments, supporting hybrid cloud architectures.
-=> Pour les entreprises qui ont une architecture hybrid
+=> Pour les entreprises qui ont une architecture hybrid ou qui veulent
+pour moins de latences et de la data chez toi 
