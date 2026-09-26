@@ -247,3 +247,7 @@ Lightsail est une solution **VPS (Virtual Private Server) clé en main** à prix
 AWS Outposts extends AWS services to on-premises environments, supporting hybrid cloud architectures.
 => Pour les entreprises qui ont une architecture hybrid ou qui veulent
 pour moins de latences et de la data chez toi 
+
+### Going global
+
+
