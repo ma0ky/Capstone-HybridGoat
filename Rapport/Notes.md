@@ -231,9 +231,11 @@ Le conteneur isole l'application et ses dépendances il ne recree pas l'OS comme
 
  Elastic Beanstalk streamlines environment provisioning and management.
  => service qui va permettre de mieux manager et rendre le deploiement plus facile des applications dans les instances EC2.
- Apparament on doit juste balancer tout ce qu'on a code, load balancer , etc pour qu'il fasse tout pour nous 
+Tu lui donnes ton code et des fichiers de configuration , et il s'occupe de provisionner les instances EC2, de configurer le _Load Balancer_, l' _Auto Scaling_ et la surveillance.
 
 AWS Batch manages large-scale computing tasks and automatically adjusts resources
+=> pour des grosses utilités comme des gros calculs avec des gros processeurs pour.
+Il prend soin de l'infrastructure pour toi
 
 Amazon Lightsail streamlines web application setup and management without the need for complex infrastructure.
 
