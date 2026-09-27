@@ -247,6 +247,7 @@ AWS Outposts extends AWS services to on-premises environments, supporting hybrid
 => Pour les entreprises qui ont une architecture hybrid ou qui veulent
 pour moins de latences et de la data chez toi 
 
-### Going global
+### Networking
+
 
 
