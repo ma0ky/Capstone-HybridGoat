@@ -96,6 +96,9 @@ Connect
 Use
 - on peut commencer à lancer les commandes 
 
+linuxsecadmin
+linuxengineer
+adminsysengineer
 #### Types
 
 Amazon propose plusieurs EC2 : ce qui changent sont :
