@@ -8,4 +8,8 @@ On l'utilise juste pour créer un compte IAM (Identity & Access Management)
 
 Un compte IAM sert à la gestion des users, grp, permissions,...
 
-Accéder à la console (CLI)
+2 facons d'utiliser aws:
+- Accéder à l'intaraface graphique 
+- Utiliser api en utilsant le terminale/cli (interface en ligne de commande ) qui permet de faire des actions via API
+  
+Faire l'auth multi-facteurs
