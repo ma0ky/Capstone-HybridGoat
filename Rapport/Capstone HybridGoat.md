@@ -21,7 +21,7 @@ Prenons l'exemple d'un immeuble qui joue le rôle du fournisseur cloud, cet imme
 - appartement propre à toi, tandis que celui-ci il y a un appartement pour une seul et même personne, personne peut rentrer et y accéder sans autorisation donc celui du propriétaire.
 
 Voici la composition d'un VPC:
-- CIDR block = plage d'
+- CIDR block = plage d'ip de tout le vpc, par exemple 192.168.0.0/24
 Dans notre cas, nous allons faire un VPC pour tout isoler et créer notre propre cloud 
 ![491](../Img/file-20261006175031562.png)
 
