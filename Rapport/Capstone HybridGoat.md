@@ -32,7 +32,7 @@ Paquet sort d'une instance dans subnet 192.168.10.0/24
   → cible = igw-0a1b2c3d
   → paquet part vers Internet   
 - Security Group =  equivalent du pare-feu au niveau de l'instance 
-
+- NACL = equivalent du pare-feu au niveau du subnet
 
 Dans notre cas, nous allons faire un VPC pour tout isoler et créer notre propre cloud 
 ![491](../Img/file-20261006175031562.png)
