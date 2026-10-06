@@ -22,7 +22,9 @@ Prenons l'exemple d'un immeuble qui joue le rôle du fournisseur cloud, cet imme
 
 Voici la composition d'un VPC:
 - CIDR block = plage d'ip de tout le vpc, par exemple 192.168.0.0/16
-- Subsnets = différents sous réseaux dans la pl
+- Subsnets = différents sous réseaux dans la plage d'ip du VPC donc dans le CIDR block, par exemple 192.168.10.0/24 et 192.168.20.0/24 qui sont 2 sous-réseaux différents qui vivent dans le même subnet/plage
+- Internet Gateway (IGW) = l'endroit qui permet de rentrer/sortir du VPC depuis internet. Sans d'IGW aucun subnet n'est public comme aucun moyen d'y entrer et sortir à notre guise.
+- Route table = définit où va le trafic, par exemple 
 Dans notre cas, nous allons faire un VPC pour tout isoler et créer notre propre cloud 
 ![491](../Img/file-20261006175031562.png)
 
