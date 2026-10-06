@@ -58,4 +58,5 @@ Pour lancer une instance, on peut utiliser une IAM (Amazon Machine Image), comme
 Dans notre cas l'EC2 se présente comme ça, une insatnce dans notre vpc :
 ![515](../Img/file-20261006210636305.png)
 
-#### S3
+#### S3 - Stockage de données
+
