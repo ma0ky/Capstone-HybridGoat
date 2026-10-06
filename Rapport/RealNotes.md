@@ -17,3 +17,19 @@ Un compte IAM sert à la gestion des users, grp, permissions,...
 Faire l'auth multi-facteurs
 
 Pour créer un compte IAM, on doit déjà avoir besoin du compte root.
+![](../Img/file-20260930170722313.png)
+On va sur la barre de recherche pour taper IAM, et on va sur IAM users > Create user et on se fait un compte
+Et on vous faites les manips >>
+créer un compte 
+ajt console
+	puis ajt sur des policies déja existantes == administrator access
+ajt multifactor 
+changez de mdp
+
+On va créez une acces keys qui va me permettre d'accéder à l'API :
+![475](../Img/file-20260930210713211.png)
+![467](../Img/file-20260930210739579.png)
+
+## Mis en place de AWS CLI
+
+36:30
