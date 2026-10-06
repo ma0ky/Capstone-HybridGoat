@@ -26,6 +26,10 @@ Dans notre cas, nous allons faire un VPC pour tout isoler et créer notre propre
 #### EC2 (= Amazon Elastic Compute Cloud)
 
 Un EC2  est un service/ une instance proposer par Amazon .
-C'est une sorte de machine virtuelle
+C'est une machine virtuelle qu'on peut "louer" dans le AWS Cloud en spécifiant le matériel qu'on souhaite avoir que sa soit de la mémoire, de la puissance du calcul,...
+Amazon propose par défauts plusieurs instances EC2 en fonction de ton besoin :
+- CPU
+- Memory
+- Stockage
+- 
 Les gens peuvent l'utiliser pour faire tourner ii
-i
