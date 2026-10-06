@@ -1,7 +1,5 @@
 # HybridGoat — Planning détaillé par phase
 
-> Complète la section 8 du cahier des charges v2 (qui garde les estimations d'heures par phase). Ici : ce qu'il y a concrètement à faire dans chaque phase, sans heures ni commandes. Phase 0 et début de Phase 1 : voir `semaine1-recette-hybridgoat.md` pour le détail complet (objectifs/étapes/sous-étapes) — condensé ici pour éviter la duplication.
-
 ## Phase 0 — Design & threat model
 
 **Objectif** : poser l'architecture cible et les fondations documentaires avant de toucher au code.
