@@ -20,6 +20,8 @@ Prenons l'exemple d'un immeuble qui joue le rôle du fournisseur cloud, cet imme
 - collocataires dans un appartement dans le même immeuble, on peut y vivre à plusieurs, se partager l'appartement sans forcément avoir le droit ou le choix des personnes; on peut référencer ça au cloud public 
 - appartement propre à toi, tandis que celui-ci il y a un appartement pour une seul et même personne, personne peut rentrer et y accéder sans autorisation donc celui du propriétaire.
 
+Voici la composition d'un VPC:
+- CIDR block = plage d'
 Dans notre cas, nous allons faire un VPC pour tout isoler et créer notre propre cloud 
 ![491](../Img/file-20261006175031562.png)
 
@@ -33,11 +35,11 @@ Amazon propose par défauts plusieurs instances EC2 en fonction de ton besoin :
 - Stockage
 - Network
 Ainsi que des familles :
-- General Purpose; c'est un EC2 avec des ressources physiques equilibrer, les gens l'utilisent principalement pour faire des serveurs webs et faire du code 
-- Compute Optimized, utiliser principalement pour faire tourner des gros serveurs de jeux et pouvoir faire de la modéliastion scientifique 
-- Memory Optimized, utiliser pour avoir énormement de place dans la RAM 
-- Accelerated  Optimized, utiliser pour sa capacité de calculs comme l'optimisation de calculs, ou chercher dans des bases de données.
-- Storage Optimized,  peut stocker énormément de données
+- General Purpose = c'est un EC2 avec des ressources physiques equilibrer, les gens l'utilisent principalement pour faire des serveurs webs et faire du code 
+- Compute Optimized = utiliser principalement pour faire tourner des gros serveurs de jeux et pouvoir faire de la modéliastion scientifique 
+- Memory Optimized = utiliser pour avoir énormement de place dans la RAM 
+- Accelerated  Optimized =  utiliser pour sa capacité de calculs comme l'optimisation de calculs, ou chercher dans des bases de données.
+- Storage Optimized =  peut stocker énormément de données
 
 Pour lancer une instance, on peut utiliser une IAM (Amazon Machine Image), comme dans la même optique que docker ce sont des images pré-fabriquer qqu'on peuet utiliser pour notre cas ce sont des VM pré-built donc avec une seule AMI on peut lancer plusieurs instances .
 
