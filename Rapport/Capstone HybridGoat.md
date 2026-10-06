@@ -55,4 +55,5 @@ Ainsi que des familles :
 
 Pour lancer une instance, on peut utiliser une IAM (Amazon Machine Image), comme dans la même optique que docker ce sont des images pré-fabriquer qqu'on peuet utiliser pour notre cas ce sont des VM pré-built donc avec une seule AMI on peut lancer plusieurs instances .
 
-Dans notre cas 
+Dans notre cas l'EC2 se présente comme ça, une insatnce dans notre vpc :
+
