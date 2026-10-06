@@ -20,4 +20,4 @@ Prenons l'exemple d'un immeuble qui joue le rôle du fournisseur cloud, cet imme
 - collocataires dans un appartement dans le même immeuble, on peut y vivre à plusieurs, se partager l'appartement; on peut référencer ça au cloud public 
 - appartement propre à toi, tandis que celui-ci il y a un appartement pour une seul et même personne, personne peut rentrer et y accéder sans autorisation donc celui du propriétaire.
 
-D
+Dans notre cas, notre 
