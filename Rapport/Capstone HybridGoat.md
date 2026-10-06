@@ -35,4 +35,6 @@ Amazon propose par défauts plusieurs instances EC2 en fonction de ton besoin :
 Ainsi que des familles :
 - General Purpose; c'est un EC2 avec des ressources physiques equilibrer, les gens l'utilisent principalement pour faire des serveurs webs et faire du code 
 - Compute Optimized, utiliser principalement pour faire tourner des gros serveurs de jeux et pouvoir faire de la modéliastion scientifique 
-- Memory Optimized, utiliser pour sa v
+- Memory Optimized, utiliser pour avoir énormement de place dans la RAM 
+- Accelerated  Optimized, utiliser pour sa capacité de calculs comme l'optimisation de calculs, ou chercher dans des bases de données.
+- Storage Opt
