@@ -23,4 +23,8 @@ Prenons l'exemple d'un immeuble qui joue le rôle du fournisseur cloud, cet imme
 Dans notre cas, nous allons faire un VPC pour tout isoler et créer notre propre cloud 
 ![491](../Img/file-20261006175031562.png)
 
-#### EC2
+#### EC2 (= Amazon Elastic Compute Cloud)
+
+Un EC2  est un service proposer par Amazon qui est composer d'un processeur, ram, stockage et une carte réseau
+eC2 est un serveur qui traite tout les calculs au sein de votre architecture.
+Les gens peuvent l'utiliser pour faire tourner ii

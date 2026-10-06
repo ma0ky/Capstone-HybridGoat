@@ -2,7 +2,8 @@
 
 ### AWS + Azure/Entra ID — orientation sysadmin/RSSI (blue team)
 
-**Version** : 2.0 — 1er octobre 2026 (révision majeure ; v1.0 du 13 août 2026 conservée comme historique dans le Journal, section 12) **Porteur du projet** : Maoky **Statut** : Draft — à optimiser/réviser avant lancement
+**Version** : 2.0 — 1er octobre 2026 (révision majeure ; v1.0 du 13 août 2026 conservée comme historique dans le Journal, section 12) 
+**Porteur du projet** : Maoky **Statut** : Draft — à optimiser/réviser avant lancement
 
 ---
 
