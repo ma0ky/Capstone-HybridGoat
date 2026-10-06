@@ -39,5 +39,5 @@ Ainsi que des familles :
 - Accelerated  Optimized, utiliser pour sa capacité de calculs comme l'optimisation de calculs, ou chercher dans des bases de données.
 - Storage Optimized,  peut stocker énormément de données
 
-Pour lancer une instance, sa se passe en différentes étapes 
+Pour lancer une instance, on peut utiliser une IAM (Amazon Machine Image), comme dans la même optique que docker ce sont des images pré-fabriquer qqu'on peuet utilsier 
 
