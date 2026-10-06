@@ -22,3 +22,5 @@ Prenons l'exemple d'un immeuble qui joue le rôle du fournisseur cloud, cet imme
 
 Dans notre cas, nous allons faire un VPC pour tout isoler et créer notre propre cloud 
 ![491](../Img/file-20261006175031562.png)
+
+#### EC2
