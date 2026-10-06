@@ -18,4 +18,6 @@ On va d'abord lister tout les matériaux/services qu'on va utiliser avec AWS.
 On a déjà le VPC, qui est un réseau privé cloud qui est par conséquent isoler des autres vpc privée ou public.
 Prenons l'exemple d'un immeuble qui joue le rôle du fournisseur cloud, cet immeuble a plusieurs appartements, il existe alors plusieurs moyen de pouvoir se loger :
 - collocataires dans un appartement dans le même immeuble, on peut y vivre à plusieurs, se partager l'appartement; on peut référencer ça au cloud public 
-- appartement propre à toi, tandis que celui
+- appartement propre à toi, tandis que celui-ci il y a un appartement pour une seul et même personne, personne peut rentrer et y accéder sans autorisation donc celui du propriétaire.
+
+D
