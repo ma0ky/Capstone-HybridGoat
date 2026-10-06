@@ -26,6 +26,6 @@ Dans notre cas, nous allons faire un VPC pour tout isoler et créer notre propre
 #### EC2 (= Amazon Elastic Compute Cloud)
 
 Un EC2  est un service/ une instance proposer par Amazon .
-C'est une sorte de C2 est un serveur qui traite tout les calculs au sein de votre architecture.
+C'est une sorte de machine virtuelle
 Les gens peuvent l'utiliser pour faire tourner ii
 i
