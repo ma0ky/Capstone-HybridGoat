@@ -37,4 +37,7 @@ Ainsi que des familles :
 - Compute Optimized, utiliser principalement pour faire tourner des gros serveurs de jeux et pouvoir faire de la modéliastion scientifique 
 - Memory Optimized, utiliser pour avoir énormement de place dans la RAM 
 - Accelerated  Optimized, utiliser pour sa capacité de calculs comme l'optimisation de calculs, ou chercher dans des bases de données.
-- Storage Opt
+- Storage Optimized,  peut stocker énormément de données
+
+Pour lancer une instance, sa se passe en différentes étapes 
+
