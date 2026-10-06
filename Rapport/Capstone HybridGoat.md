@@ -25,13 +25,14 @@ Voici la composition d'un VPC:
 - Subsnets = différents sous réseaux dans la plage d'ip du VPC donc dans le CIDR block, par exemple 192.168.10.0/24 et 192.168.20.0/24 qui sont 2 sous-réseaux différents qui vivent dans le même subnet/plage
 - Internet Gateway (IGW) = l'endroit qui permet de rentrer/sortir du VPC depuis internet. Sans d'IGW aucun subnet n'est public comme aucun moyen d'y entrer et sortir à notre guise.
 - Route table = définit où va le trafic, chaque subsnets a aussi sa propre table de routage ( si non elle utilise la table de routage par défaut du VPC), par exemple 192.168.10.0/24 veut ping google soit 8.8.8.8 , alors on fait une route avec une "entrée de route" qui indique que telle subnet peut envoyer un paquet à tels endroits pour le coup sa sera la cible qui est un id comme local ou igw-....
-- Security Group = 
 Paquet sort d'une instance dans subnet 192.168.10.0/24
   → destination = 8.8.8.8
   → le subnet est associé à rtb-abc123
   → dans rtb-abc123, 8.8.8.8 matche 0.0.0.0/0
   → cible = igw-0a1b2c3d
   → paquet part vers Internet   
+- Security Group =  equivalent du pare-feu au niveau de l'instance 
+
 
 Dans notre cas, nous allons faire un VPC pour tout isoler et créer notre propre cloud 
 ![491](../Img/file-20261006175031562.png)
