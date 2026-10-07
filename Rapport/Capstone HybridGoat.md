@@ -56,7 +56,7 @@ Ainsi que des familles :
 Pour lancer une instance, on peut utiliser une IAM (Amazon Machine Image), comme dans la même optique que docker ce sont des images pré-fabriquer qu'on peut utiliser, pour notre cas ce sont des VM pré-built donc avec une seule AMI on peut lancer plusieurs instances .
 
 Un EC2 est aussi composer d'un stockage EBS, Security  Group,Instance Profile, IMDS ( en plus du vPCU, RAM qui est le type d'instance qui indique combien de vPCU et RAM ont veut allouer à notre machine) :
-- un stockage EBS est un disque dur virtuel qu'on peut étendre
+- un stockage EBS (Elastic Block Store) : est un disque dur virtuel qu'on peut étendre à notre guise qu'on peut associer à des instances EC2. Il existe aussi une Instance Store rattacher physiquement à l'hôte de l'instance qui celle-ci est temporaire donc une fois l'instance éteint, ses données se perdent.
 
 Dans notre cas l'EC2 se présente comme ça, une instance dans notre vpc :
 ![515](../Img/file-20261006210636305.png)
