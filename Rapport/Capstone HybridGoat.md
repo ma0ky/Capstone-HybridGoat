@@ -60,7 +60,7 @@ Un EC2 est aussi composer d'un stockage EBS, Security  Group,Instance Profile, I
 - le Security Group rattacher à l'instance qu'on a pu voir un peu plus en haut qui agit directement sur l'ENI (carte réseau virtuelle)
 ![476](../Img/file-20261007140336011.png)
 Dans cette image, on peut voir que notre EC2 est à l'intérieur du VPC et d'un subnet mit en public avec 3 instances EC2 à l'intérieur et ses instances EC2 sont entourés d'une Security Group. La donnée passe par une IGW avant d'aller sur internet en sortant du VPC.
-- UNe IAM Instance Profile est une sorte de containeur qui contient plusieurs rôles IAM 
+- UNe IAM Instance Profile est une sorte de containeur qui contient plusieurs rôles IAM (gestions des users, groupes,droits, permissions) , ses rôles IAM sont tous différents mais on peut utiliser 
 
 Dans notre cas l'EC2 se présente comme ça, une instance dans notre vpc :
 ![515](../Img/file-20261006210636305.png)
