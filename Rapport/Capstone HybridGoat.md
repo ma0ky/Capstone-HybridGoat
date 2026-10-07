@@ -61,8 +61,7 @@ Un EC2 est aussi composer d'un stockage EBS, Security  Group,Instance Profile, I
 ![476](../Img/file-20261007140336011.png)
 Dans cette image, on peut voir que notre EC2 est à l'intérieur du VPC et d'un subnet mit en public avec 3 instances EC2 à l'intérieur et ses instances EC2 sont entourés d'une Security Group. La donnée passe par une IGW avant d'aller sur internet en sortant du VPC.
 - Une IAM Instance Profile est une sorte de containeur qui un rôle IAM à la fois (politiques de permissions, IAM Policies écrites en JSON) , il existe plusieurs rôles IAM qui sont tous différents et on peut utiliser un seul à la fois sur le même EC2
-- Un IMDS (Instance Metadata Service) est tout simplement les métadonnées d'une instance, il existe plusieurs méthodes :
-- IMDSv2
+- Un IMDS (Instance Metadata Service) est tout simplement les métadonnées d'une instance, il existe plusieurs méthodes IMDSv2 et IMDSv1, la deuxième version permet de contrer les attaques SSRF ( Server-Side Request Forgery) c'est une attaque qui per
 
 Dans notre cas l'EC2 se présente comme ça, une instance dans notre vpc :
 ![515](../Img/file-20261006210636305.png)
