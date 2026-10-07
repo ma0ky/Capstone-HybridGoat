@@ -59,7 +59,7 @@ Un EC2 est aussi composer d'un stockage EBS, Security  Group,Instance Profile, I
 - un stockage EBS (Elastic Block Store) : est un disque dur virtuel qu'on peut étendre à notre guise qu'on peut associer à des instances EC2. Il existe aussi une Instance Store rattacher physiquement à l'hôte de l'instance qui celle-ci est temporaire donc une fois l'instance éteint, ses données se perdent.
 - le Security Group rattacher à l'instance qu'on a pu voir un peu plus en haut qui agit directement sur l'ENI (carte réseau virtuelle)
 ![476](../Img/file-20261007140336011.png)
-Dans cette image, on peut voir que notre EC2 est à l'intérieur du VPC et d'un 
+Dans cette image, on peut voir que notre EC2 est à l'intérieur du VPC et d'un subnet mit en public avec 3 instances EC2 à l'intérieur et ses instances EC2 sont entourés d'une Security Group. La donnée passe par une IGW avant d'aller sur internet en sortant du VPC.
 
 Dans notre cas l'EC2 se présente comme ça, une instance dans notre vpc :
 ![515](../Img/file-20261006210636305.png)
