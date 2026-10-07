@@ -55,6 +55,8 @@ Ainsi que des familles :
 
 Pour lancer une instance, on peut utiliser une IAM (Amazon Machine Image), comme dans la même optique que docker ce sont des images pré-fabriquer qu'on peut utiliser, pour notre cas ce sont des VM pré-built donc avec une seule AMI on peut lancer plusieurs instances .
 
+Un EC2 est aussi composer d'un stockage EBS, Security  Group,Instance Profile, IMDS
+
 Dans notre cas l'EC2 se présente comme ça, une instance dans notre vpc :
 ![515](../Img/file-20261006210636305.png)
 
