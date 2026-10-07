@@ -53,9 +53,9 @@ Ainsi que des familles :
 - Accelerated  Optimized =  utiliser pour sa capacité de calculs comme l'optimisation de calculs, ou chercher dans des bases de données.
 - Storage Optimized =  peut stocker énormément de données
 
-Pour lancer une instance, on peut utiliser une IAM (Amazon Machine Image), comme dans la même optique que docker ce sont des images pré-fabriquer qqu'on peuet utiliser pour notre cas ce sont des VM pré-built donc avec une seule AMI on peut lancer plusieurs instances .
+Pour lancer une instance, on peut utiliser une IAM (Amazon Machine Image), comme dans la même optique que docker ce sont des images pré-fabriquer qu'on peut utiliser, pour notre cas ce sont des VM pré-built donc avec une seule AMI on peut lancer plusieurs instances .
 
-Dans notre cas l'EC2 se présente comme ça, une insatnce dans notre vpc :
+Dans notre cas l'EC2 se présente comme ça, une instance dans notre vpc :
 ![515](../Img/file-20261006210636305.png)
 
 #### S3 - Stockage de données
